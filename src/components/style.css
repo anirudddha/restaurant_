@@ -1,0 +1,57 @@
+.restaurant-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./restaurant-background-image.jpg');
+    background-size: cover;
+  }
+  
+  .restaurant-login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+  }
+  
+  .restaurant-login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+    /* align-items: left; */
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    /* align-items: left; */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .login-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 125px;
+  }
+  
+  .login-button:hover {
+    background-color: #ff3300;
+  }
+  
